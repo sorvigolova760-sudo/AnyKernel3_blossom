@@ -363,8 +363,8 @@ fi;
 OLD_PATH="$PATH";
 export PATH="$AKHOME/tools:$AKHOME/bin:$PATH";
 
-if [ -f banner ]; then
-  ui_printfile banner;
+if [ -f SetupBanner ]; then
+  ui_printfile SetupBanner;
 fi;
 
 KERNEL_STRING="$(file_getprop anykernel.sh kernel.string)";
