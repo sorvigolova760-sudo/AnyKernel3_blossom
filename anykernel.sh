@@ -6,6 +6,7 @@ kernel.string=White Kernel Project - Blossom || Infinity
 do.devicecheck=1
 do.cleanup=1
 do.cleanuponabort=0
+patch_cmdline "androidboot.selinux" "androidboot.selinux=permissive"
 do.modules=1
 device.name1=dandelion
 device.name2=angelica
